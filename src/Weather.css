@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.weatherApp {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 5px solid #7393b3;
+  border-radius: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hoover {
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+}
+
+.weather-forecast {
+  text-align: center;
+  padding: 50px;
+}
+
+.forecast-date {
+  font-size: 25px;
+  opacity: 0.5;
+}
+
+.forecast-temperatures {
+  font-size: 14px;
+}
+
+.forecast-temp-min {
+  color: gray;
+}
+
+#secondColumn {
+  text-align: center;
+}
+
+#tips {
+  font-weight: bold;
+  color: #7393b3;
+}
