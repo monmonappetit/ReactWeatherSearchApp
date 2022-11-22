@@ -12,6 +12,11 @@ root.render(
       <h1>Monica's Weather App</h1>
       <SearchForm />
     </div>
+    <p>
+      <a href="https://github.com/monmonappetit/ReactWeatherSearchApp">
+        Github Repository
+      </a>
+    </p>
   </React.StrictMode>
 );
 
